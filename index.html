@@ -65,8 +65,7 @@ const display = () =>{
         const dobcell = `<td>${entry.dob} </td>`;
         const termcell = `<td>${entry.term} </td>`;
 
-        const row = `<tr style=" border: 1px solid black;
-  border-collapse: collapse;>${namecell} ${emailcell} ${passwordcell} ${dobcell} ${termcell}</tr>`;
+        const row = `<tr>${namecell} ${emailcell} ${passwordcell} ${dobcell} ${termcell}</tr>`;
         return row;
     }).join("\n");
 
