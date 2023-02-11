@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    
+    <style>
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
     </style>
 </head>
 <body>
@@ -25,7 +30,6 @@
     <h1 style="text-align: center;">Entries</h1>
     <div style="text-align: center;  margin: auto;
     width: 23%;
-    border: 3px solid green;
     padding: 10px;" id="user"></div>
     <script>
         let form = document.getElementById("form");
@@ -67,11 +71,11 @@ const display = () =>{
 
     const t = `<table><tr>
     
-    <th>name</th>
+    <th>Name</th>
     <th>Email</th>
     <th>Password</th>
     <th>Dob</th>
-    <th>Terms</th>
+    <th>Accepted Terms</th>
     </tr>${table} </table>`;
 
 
